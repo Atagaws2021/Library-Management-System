@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+
+}
+
+body{
+width: 100%;
+height: 100vh;
+background: url('https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?cs=srgb&dl=pexels-jess-bailey-designs-743986.jpg&fm=jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.header{
+width:100%;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding:20px 30px;
+box-shadow:0px 0px 10px black;
+background: transparent;
+}
+.header h2{
+	color:black;
+	font-size:28px;
+}
+
+.header h2 span{
+	
+	color: brown;
+}
+
+.header a{
+padding:8px 10px;
+background:brown;
+text-decoration: none;
+font-size:15px;
+color:white;
+border-radius:5px;
+cursor:pointer;
+transition:all ease-in 0.3s;
+border:5px solid darkbrown;
+}
+
+.header a:hover{
+
+transform:scale(1.03);
+
+}
+.alldata{
+	
+	width:400px;
+	height:400px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgba(245, 222, 179, 0.669);
+	
+	margin:70px auto;
+	gap: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left:25px;
+	border-radius: 15px;
+	
+}
+.alldata h2{
+	padding:0px;
+	text-align: center;
+	color:brown;
+	border-bottom:2px solid brown;
+	
+}
+.alldata .subdata{
+	width:90%;
+	padding: 5px;
+	display:flex;
+	align-items: center;
+	justify-content: left;
+	font-size:18px;
+	
+}
+
+.alldata .subdata .right_desc{
+	padding-left:8px;
+}
